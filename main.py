@@ -1,7 +1,8 @@
-def print_hello(string):
-    print(f'Hello, {string}, my name is Dinara')
+import Mylib as ml
 
 
 if __name__ == '__main__':
     print('PyCharm')
-    print_hello('World')
+    ml.print_hello('World')
+    ml.print_congratulations()
+
